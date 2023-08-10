@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /* width: 100%; */
+}
+
+/* note that this will affect mobile view */
+body{
+    overflow-x: hidden;
+}
+nav {
+    height: 15vh;
+    width: 100%;
+    background-color: rgba(255, 192, 203, 0.623);
+    padding-Top: 40px;
+    justify-Content: space-between;
+    cursor: pointer;
+}
+
+.navbar {
+    margin-left: 200px;
+}
+
+.navbar img {
+    width: 120px;
+    margin-left: 250px;
+    position: relative;
+    bottom: 55px;
+    height: 17vh;
+
+}
+
+.navbar button {
+    margin-left: 150px;
+    width: 170px;
+    height: 6vh;
+    border: none;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar2 {
+    background-color: grey;
+    /* color:red; */
+    padding-left: 400px;
+    font-size: 15px;
+    /* font-weight: small; */
+    height: 7vh;
+    width: 100%;
+    padding-top: 10px;
+    gap: 20px;
+    cursor: pointer;
+
+}
+
+.navbar2:hover {
+    color: red;
+}
+
+.navbar3 {
+    background-color: white;
+    /* color:red; */
+    /* padding-left:400px; */
+    font-size: 15px;
+    height: 20vh;
+    width: 100%;
+    padding-top: 25px;
+    /* gap:20px; */
+    cursor: pointer;
+    
+    
+}
+
+.ali input {
+    width: 650px;
+    border: 5px solid red;
+    /* margin-right: 400px; */
+    height: 40px;
+    margin-left: 40px;
+    padding:  5px 10px;
+}
+
+.welcome {
+    width: 400px;
+    height: 10vh;
+    /* margin-top: 35%; */
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    gap: 40px;
+    justify-content: space-around;
+    font-size: 13px;
+    color: black;
+}
+
+.item {
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    gap: 100px;
+    margin-block: 10px;
+   margin-right: 10px;
+}
+
+.main1 {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(128, 128, 128, 0.082);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: auto;
+    
+}
+
+.main2{
+    background-color: pink;
+    padding: 10px 10px;
+}
+
+.side2{
+    background-color: rgba(255, 0, 0, 0.658); 
+    width: 300px;
+    height: 64.5Vh;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-image:url('Images/july.png');
+    background-repeat: no-repeat;
+    background-size: 210px;
+    background-position: bottom;
+
+}
+.sideIn{
+    width: 250px;
+    height: 7vh;
+    background-color: pink;
+    margin: 10px 20px;
+    border-radius: 7px;
+}
+.deal{
+    width: 450px;
+    height: 25vh;
+    border: 5px solid rgba(255, 0, 0, 0.041);
+    background-image: url('Images/deal.webp');
+    background-repeat: no-repeat;
+    background-size: 450px;
+    margin-top: 15px;
+    border-radius: 7px;
+    margin-left: 10px;
+   
+
+}
+.side32{
+    margin-top: 15px;
+    background-color: white;
+    width: 250px;
+    height:25vh ;
+    border-radius: 7px; 
+    border: 5px solid white;
+    /* justify-content: center; */
+}
+
+.side4{
+    width: 709px;
+    height: 37.8vh;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: auto;
+}
+.main2one{
+    width: 620px;
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: white;
+   
+}
+.main2two{
+    width: 620px;
+    height: 300px;
+    border: 5px solid white;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
